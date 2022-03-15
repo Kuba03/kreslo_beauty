@@ -1,0 +1,213 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Rubik:400,400i,500");
+html{
+
+    background: rgb(187, 28, 81);
+    font-family: 'Rubik';
+}
+
+.bg-white{
+    background: rgb(255, 255, 255);
+}
+
+i{
+    font-family: fontawesome !important;
+}
+
+/*======FORM=====================*/
+
+.form{
+    position: relative;
+    margin: 0 auto;
+
+}
+
+.find{
+    width: 100%;
+
+}
+
+
+.find input{
+    height: 42px;
+    padding-left: 10px;
+    border: 2px solid #00919e;
+    border-radius: 5px;
+    outline: none;
+    background: rgb(255, 214, 214);
+    color: #000000;
+}
+.find button{
+    border-radius: 10px;
+
+    top: 0;
+    right: 0px;
+    width: 42px;
+    height: 42px;
+    border: none;
+    background: rgb(187, 28, 81);
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+.find button:before{
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #F9F0DA;
+}
+
+
+
+/*======FORM=====================*/
+.btn{
+    position: relative;
+    width: 170px;
+    height: 40px;
+    border-radius: 18px;
+    font-size: 15px;
+    background: rgb(187, 28, 81);
+    color: #ffffff;
+    transition: all 0.6s ease;
+    -webkit-transition: all 0.6s ease;
+}
+.btn-head{    position: relative;
+    width: 170px;
+    height: 40px;
+    border-radius: 18px;
+    font-size: 15px;
+    background: rgb(255, 255, 255);
+    color: #000000;
+    transition: all 0.6s ease;
+    -webkit-transition: all 0.6s ease;
+}
+    
+.btn-head:hover{
+        background: rgb(187, 28, 81);
+        border-color: blue;
+        transform: translateY(-5px);
+        cursor: pointer;
+        
+    }
+
+.btn:hover{
+    background: rgb(255, 0, 0);
+    border-color: blue;
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+.border-head{
+    border-color: rgb(187, 28, 81) ;
+    border-width: 2px;
+}
+.border{
+    border: #ffffff solid;
+    border-width: 2px;
+}
+
+.heading{
+    position: relative;
+}
+.head{
+    align-items: center;
+}
+
+.head-ul{
+    padding-left: 35%;
+    padding-right: 25%;
+    background: rgb(224, 215, 215);
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+}
+.head-li{
+    padding: 15px 15px 15px 5px ;
+    list-style: none;
+
+}
+.head-li:hover{
+    color: indigo;
+}
+
+#navbar{
+    background: #ffffff;
+    width: 100%;
+    display: inline-block;
+
+
+}
+
+.nav-head-ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 400;
+    float: right;
+
+}
+.nav-head-li{
+    display: inline-block;
+    padding-left: 70px;
+    padding-right: 50px;
+}
+#nav-under{
+    background: rgb(255, 255, 255);
+}
+.nav-under-ul{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.nav-under-li{
+}
+
+
+.content-box{
+    width: 100%;
+    height: 600px;
+    display: flex;
+
+}
+
+.title{
+    position: relative;
+    display: inline-block;
+    padding-left: 250px;
+    padding-top: 180px;
+    color: white;
+    z-index: 0;
+
+}
+.title h2{
+    font-size: 32px;
+    font-weight: 500;
+}
+.title p{
+    font-size: 13px;
+
+}
+.img-kreslo{
+    padding-left: 100px;
+    padding-top: 100px;
+    position: relative;
+    z-index: 999;
+    background: rgba(218, 199, 199, 0.5);
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    margin: 55px auto;
+}
+.other-circle{
+    position: relative;
+    background: rgba(228, 220, 220, 0.2);
+    width: 580px;
+    height: 580px;
+    border-radius: 50%;
+    z-index: 999;
+    top: 50px;
+    left: 50px;
+    margin: -20px 0px 0px -20px;
+}
